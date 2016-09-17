@@ -37,3 +37,17 @@ real    70m11.576s
 user    3m21.500s
 sys     19m1.560s
 ```
+
+Another hack for `git`:
+```
+git config --global pack.threads "1"
+```
+
+bootstraping `cabal-install` requires `zlib1g-dev` C-library.
+
+After building and installing `cabal-install` to run `cabal` it's necessary to downgrade stack size again!
+And for building `old-time` package `ulimit` has to be lowered too! At the end I had:
+```
+ulimit -s 300000
+```
+I'm not sure that this limit is final.
