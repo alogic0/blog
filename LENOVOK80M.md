@@ -51,3 +51,11 @@ And for building `old-time` package `ulimit` has to be lowered too! At the end I
 ulimit -s 300000
 ```
 I'm not sure that this limit is final.
+
+```
+root@localhost:~/src/cabal-install-1.24.0.0# time ./bootstrap.sh
+
+real    88m52.952s
+user    34m51.790s
+sys     16m37.210s
+```
