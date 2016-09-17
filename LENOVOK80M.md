@@ -52,6 +52,7 @@ ulimit -s 300000
 ```
 I'm not sure that this limit is final.
 
+Building `cabal-install`:
 ```
 root@localhost:~/src/cabal-install-1.24.0.0# time ./bootstrap.sh
 
