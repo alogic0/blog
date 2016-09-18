@@ -77,3 +77,5 @@ root@localhost:~# du -sch  ~/.cabal/ ~/ghc-8.0.1/
 993M    /usr/home/ghc-8.0.1/
 1.9G    total
 ```
+
+`$HOME`is placed in `/usr/home` because /home is on fat32 filesystem.
