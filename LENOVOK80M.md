@@ -69,3 +69,11 @@ real    74m11.190s
 user    91m1.240s
 sys     10m28.860s
 ```
+
+How much space does it take?
+```
+root@localhost:~# du -sch  ~/.cabal/ ~/ghc-8.0.1/
+852M    /usr/home/.cabal/
+993M    /usr/home/ghc-8.0.1/
+1.9G    total
+```
