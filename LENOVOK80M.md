@@ -60,3 +60,12 @@ real    88m52.952s
 user    34m51.790s
 sys     16m37.210s
 ```
+
+Building `hakyll-4.8.3.2`
+```
+root@localhost:~# time cabal install hakyll
+
+real    74m11.190s
+user    91m1.240s
+sys     10m28.860s
+```
