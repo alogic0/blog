@@ -1,4 +1,4 @@
-./lib/ld-linux.so.2 usr/bin/lspci -vv -nk -xxx
+## ./lib/ld-linux.so.2 usr/bin/lspci -vv -nk -xxx
 00:00.0 0600: 8086:1470 (rev 02)
 	Control: I/O+ Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
 	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
