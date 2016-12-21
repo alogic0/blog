@@ -1,0 +1,1072 @@
+./lib/ld-linux.so.2 usr/bin/lspci -vv -nk -xxx
+00:00.0 0600: 8086:1470 (rev 02)
+	Control: I/O+ Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap- 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0
+00: 86 80 70 14 07 00 00 00 02 00 00 06 00 00 00 00
+10: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+20: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+30: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+40: 12 01 00 21 9f ff ff bf 12 01 00 21 00 00 00 00
+50: 02 01 00 21 02 01 00 21 02 01 00 21 00 00 00 00
+60: 02 01 00 21 9f ff ff bf 16 01 00 20 00 00 00 00
+70: 02 01 00 21 9f ff ff bf 02 01 00 20 00 00 00 00
+80: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+90: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+a0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+b0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+c0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+d0: 00 00 00 00 ff ff ff ff 00 00 00 00 00 00 00 00
+e0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+f0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+
+00:01.0 0805: 8086:1490 (rev 02) (prog-if 01)
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 64
+	Interrupt: pin A routed to IRQ 0
+	Region 0: Memory at ff3fc000 (32-bit, non-prefetchable) [size=256]
+	Capabilities: [b0] Power Management version 3
+		Flags: PMEClk- DSI+ D1- D2- AuxCurrent=0mA PME(D0+,D1-,D2-,D3hot+,D3cold-)
+		Status: D3 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+	Capabilities: [b8] Vendor Specific Information: Len=08 <?>
+	Capabilities: [c0] PCI-X non-bridge device
+		Command: DPERE- ERO+ RBC=512 OST=1
+		Status: Dev=ff:1f.7 64bit- 133MHz+ SCD- USC- DC=simple DMMRBC=512 DMOST=1 DMCRS=8 RSCEM- 266MHz+ 533MHz-
+	Capabilities: [100 v1] Vendor Specific Information: ID=0000 Rev=0 Len=024 <?>
+	Kernel driver in use: sdhci-pci
+00: 86 80 90 14 06 00 10 00 02 01 05 08 00 40 80 00
+10: 00 c0 3f ff 00 00 00 00 00 00 00 00 00 00 00 00
+20: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+30: 00 00 00 00 b0 00 00 00 00 00 00 00 00 01 00 00
+40: 00 00 00 00 36 9b 92 83 d4 0d 5f 14 1d 4a ed 2e
+50: 71 c8 bc 67 95 30 88 6d 7a 4d 29 53 d2 4b 28 7b
+60: 49 b2 b5 57 f1 82 b7 61 0b 46 01 69 02 07 0b 94
+70: d8 55 d8 79 62 8f 72 08 8e 79 5e 07 b1 35 df 04
+80: d2 34 dc d7 1c 88 1d 99 e3 aa 0d c4 88 83 23 5d
+90: 92 bc ce 13 ec 8a 95 3e e5 d4 85 1e a0 af 53 19
+a0: 29 68 03 2e 5f 76 e3 64 ff c2 f6 3b 9a fe de 61
+b0: 01 b8 23 48 03 00 00 00 09 c0 08 02 82 65 00 00
+c0: 07 00 02 00 ff ff 02 40 00 00 00 00 00 00 00 00
+d0: 00 00 00 00 00 00 00 00 a4 f5 47 c0 ed be 73 4c
+e0: 9f e4 f0 a4 0a 53 14 55 c7 99 34 6e 7b c4 cf 3c
+f0: 47 a9 02 4f c1 e0 83 38 3b 0d b8 d7 bc ea 8c 22
+
+00:01.2 0805: 8086:1491 (rev 02) (prog-if 01)
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 64
+	Interrupt: pin B routed to IRQ 37
+	Region 0: Memory at ff3fa000 (32-bit, non-prefetchable) [size=256]
+	Capabilities: [b0] Power Management version 3
+		Flags: PMEClk- DSI+ D1- D2- AuxCurrent=0mA PME(D0+,D1-,D2-,D3hot+,D3cold-)
+		Status: D3 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+	Capabilities: [b8] Vendor Specific Information: Len=08 <?>
+	Capabilities: [c0] PCI-X non-bridge device
+		Command: DPERE- ERO+ RBC=512 OST=1
+		Status: Dev=ff:1f.7 64bit- 133MHz+ SCD- USC- DC=simple DMMRBC=512 DMOST=1 DMCRS=8 RSCEM- 266MHz+ 533MHz-
+	Capabilities: [100 v1] Vendor Specific Information: ID=0000 Rev=0 Len=024 <?>
+	Kernel driver in use: sdhci-pci
+00: 86 80 91 14 06 00 10 00 02 01 05 08 00 40 80 00
+10: 00 a0 3f ff 00 00 00 00 00 00 00 00 00 00 00 00
+20: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+30: 00 00 00 00 b0 00 00 00 00 00 00 00 25 02 00 00
+40: 00 00 00 00 26 36 80 46 34 6b 0d a5 c0 b0 a1 9e
+50: a2 fc c6 e8 a0 b5 13 94 b8 5a 53 3d f8 3c ba c0
+60: d4 8e 58 5d f8 4c 2f b8 57 85 c2 c9 8b 4d e7 70
+70: c5 89 a3 52 55 23 74 4b 12 84 06 fd 17 03 d8 07
+80: 88 1f 63 4b 18 c7 08 4c 66 34 e5 9c 6a d8 73 41
+90: 2f 37 cf 47 85 67 a2 bf d5 6e e0 b7 bc f1 0d a6
+a0: b5 c0 cf 30 25 c2 51 b9 d5 aa e3 47 bf c0 9d ae
+b0: 01 b8 23 48 03 00 00 00 09 c0 08 02 81 65 00 00
+c0: 07 00 02 00 ff ff 02 40 00 00 00 00 00 00 00 00
+d0: 00 00 00 00 00 00 00 00 09 2b 8e a7 d0 20 dd de
+e0: 3e e0 b9 12 0c 9b 84 b7 63 db 04 ff c0 10 a3 d0
+f0: f2 1f 2c 85 94 11 19 e6 fb d7 e0 79 b2 db 1a 73
+
+00:01.3 0805: 8086:1492 (rev 02) (prog-if 01)
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 64
+	Interrupt: pin C routed to IRQ 38
+	Region 0: Memory at ff3fb000 (32-bit, non-prefetchable) [size=256]
+	Capabilities: [b0] Power Management version 3
+		Flags: PMEClk- DSI+ D1- D2- AuxCurrent=0mA PME(D0+,D1-,D2-,D3hot+,D3cold-)
+		Status: D3 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+	Capabilities: [b8] Vendor Specific Information: Len=08 <?>
+	Capabilities: [c0] PCI-X non-bridge device
+		Command: DPERE- ERO+ RBC=512 OST=1
+		Status: Dev=ff:1f.7 64bit- 133MHz+ SCD- USC- DC=simple DMMRBC=512 DMOST=1 DMCRS=8 RSCEM- 266MHz+ 533MHz-
+	Capabilities: [100 v1] Vendor Specific Information: ID=0000 Rev=0 Len=024 <?>
+	Kernel driver in use: sdhci-pci
+00: 86 80 92 14 06 00 10 00 02 01 05 08 00 40 80 00
+10: 00 b0 3f ff 00 00 00 00 00 00 00 00 00 00 00 00
+20: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+30: 00 00 00 00 b0 00 00 00 00 00 00 00 26 03 00 00
+40: 00 00 00 00 24 32 c2 c7 35 6b 0d a5 a4 30 a1 82
+50: a2 fc 80 ed a4 95 13 b4 fa 5b 91 3f fe 6e fe e5
+60: cc 8f 37 ce dd cd 2f 99 5e 8d 6d 91 1f 46 5e 6b
+70: 66 21 0a 0a 43 01 e6 7a 57 25 02 4b 0c 93 41 1e
+80: cb 3d 25 2f d7 6f 6e 1e 70 77 b5 bc 02 3f 21 05
+90: 3a 4e c9 63 6a 64 0c cd 97 a8 a1 a1 be 74 39 c4
+a0: a7 04 4e 73 ac da d1 a3 dd ba fb 47 bf c0 8d b6
+b0: 01 b8 23 48 03 00 00 00 09 c0 08 02 84 65 00 00
+c0: 07 00 02 00 ff ff 02 40 00 00 00 00 00 00 00 00
+d0: 00 00 00 00 00 00 00 00 de 79 1f 1e fd 38 ed 46
+e0: 1a c4 94 f6 2e ba c4 93 21 db 24 db c2 1c 81 d0
+f0: f2 6f cc 85 d4 31 38 c6 a9 d6 e0 7b b2 df 7a 33
+
+00:02.0 0380: 8086:1480 (rev 02)
+	Control: I/O+ Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx+
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0
+	Interrupt: pin ? routed to IRQ 103
+	Region 0: Memory at c0000000 (32-bit, non-prefetchable) [size=32M]
+	Region 2: Memory at 80000000 (32-bit, non-prefetchable) [size=512M]
+	Region 4: I/O ports at 7ff8 [size=8]
+	Capabilities: [d0] Power Management version 2
+		Flags: PMEClk- DSI+ D1- D2- AuxCurrent=0mA PME(D0-,D1-,D2-,D3hot-,D3cold-)
+		Status: D0 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+	Capabilities: [b0] Vendor Specific Information: Len=07 <?>
+	Capabilities: [90] MSI: Enable+ Count=1/1 Maskable- 64bit-
+		Address: fee0f00c  Data: 4144
+	Kernel driver in use: pvrsrvkm
+00: 86 80 80 14 07 04 10 00 02 00 80 03 00 00 00 00
+10: 00 00 00 c0 00 00 00 00 00 00 00 80 00 00 00 00
+20: f9 7f 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+30: 00 00 00 00 d0 00 00 00 00 00 00 00 00 00 00 00
+40: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+50: 00 00 30 00 00 00 00 00 00 00 00 00 00 00 f0 7e
+60: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+70: 00 00 f8 7f 00 00 00 00 00 00 00 00 00 00 00 00
+80: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+90: 05 00 01 00 0c f0 e0 fe 44 41 00 00 00 00 00 00
+a0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+b0: 09 90 07 01 00 00 00 00 00 00 00 00 00 00 00 00
+c0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+d0: 01 b0 22 00 00 00 00 00 00 00 00 00 00 00 00 00
+e0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+f0: 00 00 00 00 00 00 00 00 00 00 00 00 e0 02 0a 00
+
+00:03.0 0480: 8086:1478 (rev ff) (prog-if ff)
+	!!! Unknown header type 7f
+	Kernel driver in use: atomisp-css2401a0_v21
+00: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+10: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+20: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+30: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+40: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+50: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+60: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+70: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+80: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+90: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+a0: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+b0: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+c0: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+d0: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+e0: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+f0: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+
+00:04.0 0700: 8086:1191 (rev 02) (prog-if 02)
+	Control: I/O- Mem+ BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Region 0: Memory at ff010000 (32-bit, non-prefetchable) [size=128]
+	Capabilities: [b0] Power Management version 3
+		Flags: PMEClk- DSI+ D1- D2- AuxCurrent=0mA PME(D0+,D1-,D2-,D3hot+,D3cold-)
+		Status: D0 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+	Capabilities: [b8] Vendor Specific Information: Len=08 <?>
+	Capabilities: [c0] PCI-X non-bridge device
+		Command: DPERE- ERO+ RBC=512 OST=1
+		Status: Dev=ff:1f.7 64bit- 133MHz+ SCD- USC- DC=simple DMMRBC=512 DMOST=1 DMCRS=8 RSCEM- 266MHz+ 533MHz-
+	Capabilities: [100 v1] Vendor Specific Information: ID=0000 Rev=0 Len=024 <?>
+	Kernel driver in use: HSU serial
+00: 86 80 91 11 02 00 10 00 02 02 00 07 00 00 80 00
+10: 00 00 01 ff 00 00 00 00 00 00 00 00 00 00 00 00
+20: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+30: 00 00 00 00 b0 00 00 00 00 00 00 00 00 00 00 00
+40: 94 94 df 5a 2d 4f 57 f9 67 6c a6 a4 13 31 4b 46
+50: c3 f0 f4 ea 38 16 0f 55 f8 30 e9 1a 36 ee d8 a9
+60: 6f 2b 0c ef da a0 ba 16 98 83 d1 59 fd ce 57 a9
+70: 01 16 3a 25 4e 69 30 a9 2f ef 87 e9 61 09 2f 12
+80: 5b cf bb f7 93 b8 ec d2 9a ea ed 83 2b 43 f6 5d
+90: b0 0d 3e a4 32 23 7d 88 64 4f 20 b5 bf 3b 61 c2
+a0: a2 34 c4 08 21 7f 53 6d 63 51 25 2a 50 fe eb a1
+b0: 01 b8 23 48 00 00 00 00 09 c0 08 02 00 41 00 00
+c0: 07 00 02 00 ff ff 02 40 00 00 00 00 00 00 00 00
+d0: 00 00 00 00 00 00 00 00 a4 72 0e a2 88 a2 82 27
+e0: b4 36 8f 0a 25 e7 55 ad 74 dc 8f fc 15 9d 49 10
+f0: 83 65 5c 82 6c 90 f5 47 db 9d 78 5c 7c 4d 78 f8
+
+00:04.1 0700: 8086:1191 (rev 02) (prog-if 02)
+	Control: I/O- Mem+ BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Interrupt: pin A routed to IRQ 28
+	Region 0: Memory at ff010080 (32-bit, non-prefetchable) [size=128]
+	Capabilities: [b0] Power Management version 3
+		Flags: PMEClk- DSI+ D1- D2- AuxCurrent=0mA PME(D0+,D1-,D2-,D3hot+,D3cold-)
+		Status: D3 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+	Capabilities: [b8] Vendor Specific Information: Len=08 <?>
+	Capabilities: [c0] PCI-X non-bridge device
+		Command: DPERE- ERO+ RBC=512 OST=1
+		Status: Dev=ff:1f.7 64bit- 133MHz+ SCD- USC- DC=simple DMMRBC=512 DMOST=1 DMCRS=8 RSCEM- 266MHz+ 533MHz-
+	Capabilities: [100 v1] Vendor Specific Information: ID=0000 Rev=0 Len=024 <?>
+	Kernel driver in use: HSU serial
+00: 86 80 91 11 02 00 10 00 02 02 00 07 00 00 80 00
+10: 80 00 01 ff 00 00 00 00 00 00 00 00 00 00 00 00
+20: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+30: 00 00 00 00 b0 00 00 00 00 00 00 00 1c 01 00 00
+40: 96 94 df 58 2d 4f 55 f8 47 6c a6 a4 11 31 4b 46
+50: c3 f0 f4 ea 38 15 ff 57 f8 10 ed 1a 36 ee d8 a9
+60: 3f e7 21 a7 53 92 73 8f 4b 90 c9 53 76 d6 b5 a4
+70: 34 bf 13 39 5f e9 a6 aa bf ff 96 f4 c1 11 27 4e
+80: 59 87 59 b7 99 78 ee 1c 9a 0a df c3 ef 47 46 ec
+90: e0 29 0b c4 b0 e1 3b 4c e4 cd 27 a5 d1 6b 2d c6
+a0: a2 34 cc 08 30 67 53 6d 63 51 24 3a 50 fe eb a1
+b0: 01 b8 23 48 03 00 00 00 09 c0 08 02 9f 41 00 00
+c0: 07 00 02 00 ff ff 02 40 00 00 00 00 00 00 00 00
+d0: 00 00 00 00 00 00 00 00 37 62 86 23 00 b7 83 02
+e0: b4 34 cb 08 65 e7 55 ad 74 dc af dc 15 9d 49 10
+f0: 93 61 5c a2 ec b0 f7 27 db 9c 78 5c 7c 4d 7c fa
+
+00:04.2 0700: 8086:1191 (rev 02) (prog-if 02)
+	Control: I/O- Mem+ BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Interrupt: pin B routed to IRQ 29
+	Region 0: Memory at ff010100 (32-bit, non-prefetchable) [size=128]
+	Capabilities: [b0] Power Management version 3
+		Flags: PMEClk- DSI+ D1- D2- AuxCurrent=0mA PME(D0+,D1-,D2-,D3hot+,D3cold-)
+		Status: D3 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+	Capabilities: [b8] Vendor Specific Information: Len=08 <?>
+	Capabilities: [c0] PCI-X non-bridge device
+		Command: DPERE- ERO+ RBC=512 OST=1
+		Status: Dev=ff:1f.7 64bit- 133MHz+ SCD- USC- DC=simple DMMRBC=512 DMOST=1 DMCRS=8 RSCEM- 266MHz+ 533MHz-
+	Capabilities: [100 v1] Vendor Specific Information: ID=0000 Rev=0 Len=024 <?>
+	Kernel driver in use: HSU serial
+00: 86 80 91 11 02 00 10 00 02 02 00 07 00 00 80 00
+10: 00 01 01 ff 00 00 00 00 00 00 00 00 00 00 00 00
+20: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+30: 00 00 00 00 b0 00 00 00 00 00 00 00 1d 02 00 00
+40: 15 b0 9f ca 0d c6 e5 39 c5 0e d4 15 a8 ed 17 aa
+50: 16 26 9e 00 2d c3 45 af 4a cc b1 74 1a db 4c 52
+60: e3 4b 74 b5 70 a1 a6 d0 ee f1 33 6a ff 16 e1 1d
+70: 59 5a c9 6b f2 94 a2 98 af 33 ce 47 64 93 b1 4f
+80: c1 5e 72 49 9b 33 d7 65 8c 04 93 59 4b ba 90 c1
+90: 78 f5 62 9a 7e e7 a8 19 73 d1 4c 8e 04 07 e1 0c
+a0: 38 8d 09 54 47 c5 61 ba f9 99 2d 46 54 40 e9 7e
+b0: 01 b8 23 48 03 00 00 00 09 c0 08 02 9f 41 00 00
+c0: 07 00 02 00 ff ff 02 40 00 00 00 00 00 00 00 00
+d0: 00 00 00 00 00 00 00 00 94 b4 de dc 20 93 54 dc
+e0: 35 30 8f 1a 01 6e e1 69 90 ba dd 6d 8c 45 17 fc
+f0: 44 b5 34 c8 79 47 6f dd 6b 41 20 32 52 7a ca 63
+
+00:04.3 0700: 8086:1191 (rev 02) (prog-if 02)
+	Control: I/O- Mem+ BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Interrupt: pin C routed to IRQ 86
+	Region 0: Memory at ff010180 (32-bit, non-prefetchable) [size=128]
+	Capabilities: [b0] Power Management version 3
+		Flags: PMEClk- DSI+ D1- D2- AuxCurrent=0mA PME(D0+,D1-,D2-,D3hot+,D3cold-)
+		Status: D3 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+	Capabilities: [b8] Vendor Specific Information: Len=08 <?>
+	Capabilities: [c0] PCI-X non-bridge device
+		Command: DPERE- ERO+ RBC=512 OST=1
+		Status: Dev=ff:1f.7 64bit- 133MHz+ SCD- USC- DC=simple DMMRBC=512 DMOST=1 DMCRS=8 RSCEM- 266MHz+ 533MHz-
+	Capabilities: [100 v1] Vendor Specific Information: ID=0000 Rev=0 Len=024 <?>
+	Kernel driver in use: HSU serial
+00: 86 80 91 11 02 00 10 00 02 02 00 07 00 00 80 00
+10: 80 01 01 ff 00 00 00 00 00 00 00 00 00 00 00 00
+20: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+30: 00 00 00 00 b0 00 00 00 00 00 00 00 56 03 00 00
+40: 15 b0 9f 4a 0d c6 c5 3f 83 0a d4 15 88 e9 17 aa
+50: 16 24 be 00 0d e3 05 af 48 cc f1 70 0a d9 4e 32
+60: e6 47 60 f7 f9 31 23 e2 7d 61 ab e8 df 0e 40 49
+70: b1 db 69 be fe 59 92 48 3e 33 07 c4 e4 27 a0 cd
+80: c5 b2 b6 8f db 36 bf c9 7a 57 1a b1 e2 bb 15 ca
+90: 5f 95 38 9c 5a ce c8 dd b2 f5 44 c0 6f 07 65 dd
+a0: 38 8d 09 54 46 c9 60 aa 70 29 2d 46 54 40 e9 5e
+b0: 01 b8 23 48 03 00 00 00 09 c0 08 02 9f 41 00 00
+c0: 07 00 02 00 ff ff 02 40 00 00 00 00 00 00 00 00
+d0: 00 00 00 00 00 00 00 00 15 26 37 ad bd 1d 15 99
+e0: 35 30 8f 1a 01 7e c1 69 94 bf dc 0d a8 45 15 fc
+f0: 46 b5 37 48 59 07 2b fd 6b 41 20 72 56 7a ea 63
+
+00:05.0 0700: 8086:1192 (rev 02) (prog-if 02)
+	Control: I/O- Mem+ BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Interrupt: pin A routed to IRQ 31
+	Region 0: Memory at ff010400 (32-bit, non-prefetchable) [size=1K]
+	Capabilities: [b0] Power Management version 3
+		Flags: PMEClk- DSI+ D1- D2- AuxCurrent=0mA PME(D0+,D1-,D2-,D3hot+,D3cold-)
+		Status: D0 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME+
+	Capabilities: [b8] Vendor Specific Information: Len=08 <?>
+	Capabilities: [c0] PCI-X non-bridge device
+		Command: DPERE- ERO+ RBC=512 OST=1
+		Status: Dev=ff:1f.7 64bit- 133MHz+ SCD- USC- DC=simple DMMRBC=512 DMOST=1 DMCRS=8 RSCEM- 266MHz+ 533MHz-
+	Capabilities: [100 v1] Vendor Specific Information: ID=0000 Rev=0 Len=024 <?>
+	Kernel driver in use: HSU DMA
+00: 86 80 92 11 02 00 10 00 02 02 00 07 00 00 00 00
+10: 00 04 01 ff 00 00 00 00 00 00 00 00 00 00 00 00
+20: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+30: 00 00 00 00 b0 00 00 00 00 00 00 00 1f 01 00 00
+40: 3a 20 88 82 06 32 c0 c7 34 6b 0d a7 c0 b0 a1 96
+50: a2 fc c6 e9 a0 95 13 94 d8 5a 71 3f fa 7c ba e0
+60: d4 9e 79 5d f8 4c 2f b8 57 85 c2 c9 bb 45 e7 70
+70: c5 a9 33 52 57 63 74 4b 12 84 06 fc 17 83 d8 07
+80: 88 1f 63 4b 18 c7 0a 4c 66 34 a5 9c 6a 98 63 41
+90: 3f 27 cf 47 85 66 22 bf d5 6e ea b7 b5 f1 0d a6
+a0: b7 c0 cf 70 25 da d1 b3 d5 aa e3 47 bf c0 9d be
+b0: 01 b8 23 48 00 80 00 00 09 c0 08 02 00 41 00 00
+c0: 07 00 02 00 ff ff 02 40 00 00 00 00 00 00 00 00
+d0: 00 00 00 00 00 00 00 00 19 2b 0e a7 c1 20 dd ce
+e0: 3a c0 b8 f2 0e 9a c4 97 23 db 04 ff c0 1c a3 d0
+f0: f2 7f 6c a5 b4 11 19 e6 eb d6 e0 79 b2 df 1a b3
+
+00:07.0 0880: 8086:1194 (rev 02)
+	Control: I/O- Mem+ BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Interrupt: pin A routed to IRQ 20
+	Region 0: Memory at ff188000 (32-bit, non-prefetchable) [size=4K]
+	Capabilities: [b0] Power Management version 3
+		Flags: PMEClk- DSI+ D1- D2- AuxCurrent=0mA PME(D0+,D1-,D2-,D3hot+,D3cold-)
+		Status: D3 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+	Capabilities: [b8] Vendor Specific Information: Len=08 <?>
+	Capabilities: [c0] PCI-X non-bridge device
+		Command: DPERE- ERO+ RBC=512 OST=1
+		Status: Dev=ff:1f.7 64bit- 133MHz+ SCD- USC- DC=simple DMMRBC=512 DMOST=1 DMCRS=8 RSCEM- 266MHz+ 533MHz-
+	Capabilities: [100 v1] Vendor Specific Information: ID=0000 Rev=0 Len=024 <?>
+	Kernel driver in use: ce4100_spi
+00: 86 80 94 11 02 00 10 00 02 00 80 08 00 00 80 00
+10: 00 80 18 ff 00 00 00 00 00 00 00 00 00 00 00 00
+20: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+30: 00 00 00 00 b0 00 00 00 00 00 00 00 14 01 00 00
+40: 6f ab a2 ca 3d 8a ea 55 17 d6 02 e6 ec 40 b0 94
+50: 57 37 cf 3e 33 e4 27 de 1b 37 f5 c9 64 76 a8 7d
+60: d1 4f 3d 35 95 b9 2d 20 ca bc b1 4c 1a 45 4a fc
+70: 30 91 6d 5c 14 4f 69 79 4c ca b5 f7 b3 9a 8a 92
+80: d2 0e fc d8 ac cb 15 db 6c 1c 63 1c 33 ed 5a a8
+90: a2 51 44 fa 68 5e 72 79 f8 c3 69 91 e6 2b 38 4b
+a0: 69 dd 02 8e 4b 74 c2 b2 13 c5 1c e3 cc f2 e6 16
+b0: 01 b8 23 48 03 00 00 00 09 c0 08 02 91 65 0d 00
+c0: 07 00 02 00 ff ff 02 40 00 00 00 00 00 00 00 00
+d0: 00 00 00 00 00 00 00 00 6f 07 22 31 d3 39 2e c3
+e0: 1e 90 62 92 3b ad fe 1d 91 6b 47 e3 41 86 bf 1d
+f0: 2f eb 5a f7 7f 04 b1 da 80 b1 4d ce 14 d4 d7 3c
+
+00:07.1 0880: 8086:1194 (rev 02)
+	Control: I/O- Mem+ BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Interrupt: pin B routed to IRQ 22
+	Region 0: Memory at ff189000 (32-bit, non-prefetchable) [size=4K]
+	Capabilities: [b0] Power Management version 3
+		Flags: PMEClk- DSI+ D1- D2- AuxCurrent=0mA PME(D0+,D1-,D2-,D3hot+,D3cold-)
+		Status: D3 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+	Capabilities: [b8] Vendor Specific Information: Len=08 <?>
+	Capabilities: [c0] PCI-X non-bridge device
+		Command: DPERE- ERO+ RBC=512 OST=1
+		Status: Dev=ff:1f.7 64bit- 133MHz+ SCD- USC- DC=simple DMMRBC=512 DMOST=1 DMCRS=8 RSCEM- 266MHz+ 533MHz-
+	Capabilities: [100 v1] Vendor Specific Information: ID=0000 Rev=0 Len=024 <?>
+	Kernel driver in use: ce4100_spi
+00: 86 80 94 11 02 00 10 00 02 00 80 08 00 00 80 00
+10: 00 90 18 ff 00 00 00 00 00 00 00 00 00 00 00 00
+20: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+30: 00 00 00 00 b0 00 00 00 00 00 00 00 16 02 00 00
+40: 87 84 42 ef 5b c6 c9 71 25 ef 14 7b fb b2 b5 23
+50: 1f 4a ea 33 2a 30 bf 88 a6 a6 7c 4b 35 7f 61 6d
+60: 53 0f 3d 75 dc fd 2d 22 48 b8 b5 4c 1a c5 6a bc
+70: 74 95 2c 58 14 4f 6d 79 49 ca 37 f5 9b 98 8e 92
+80: d2 86 fc d1 3c 83 1d 13 e4 14 e3 1c 33 ed 5a 20
+90: 2a d1 44 7a e0 5e f3 79 f9 0f 69 19 f6 2b 30 4a
+a0: 0b 1d 68 aa 4b b6 e2 2e 1f 91 3b e3 bc d6 a1 54
+b0: 01 b8 23 48 03 00 00 00 09 c0 08 02 92 65 15 00
+c0: 07 00 02 00 ff ff 02 40 00 00 00 00 00 00 00 00
+d0: 00 00 00 00 00 00 00 00 7f c7 62 b1 d7 3b 6a c7
+e0: cf 68 3b 9a 77 6f d2 b1 9c 72 86 36 e8 57 22 08
+f0: e6 e3 c2 87 e6 18 6c c4 c4 28 dd 36 11 c1 49 bd
+
+00:07.2 0880: 8086:1194 (rev 02)
+	Control: I/O- Mem+ BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Interrupt: pin C routed to IRQ 53
+	Region 0: Memory at ff18a000 (32-bit, non-prefetchable) [size=4K]
+	Capabilities: [b0] Power Management version 3
+		Flags: PMEClk- DSI+ D1- D2- AuxCurrent=0mA PME(D0+,D1-,D2-,D3hot+,D3cold-)
+		Status: D3 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+	Capabilities: [b8] Vendor Specific Information: Len=08 <?>
+	Capabilities: [c0] PCI-X non-bridge device
+		Command: DPERE- ERO+ RBC=512 OST=1
+		Status: Dev=ff:1f.7 64bit- 133MHz+ SCD- USC- DC=simple DMMRBC=512 DMOST=1 DMCRS=8 RSCEM- 266MHz+ 533MHz-
+	Capabilities: [100 v1] Vendor Specific Information: ID=0000 Rev=0 Len=024 <?>
+	Kernel driver in use: ce4100_spi
+00: 86 80 94 11 02 00 10 00 02 00 80 08 00 00 80 00
+10: 00 a0 18 ff 00 00 00 00 00 00 00 00 00 00 00 00
+20: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+30: 00 00 00 00 b0 00 00 00 00 00 00 00 35 03 00 00
+40: ad 1c 80 d0 97 0d 4f 9d ce 28 24 12 45 28 9d f2
+50: 12 a6 e0 4c 9f 4c 86 6c 2e 40 16 f6 f4 9d fb f7
+60: d0 2b 7d 27 fc 30 bd e2 a8 da 43 7d a3 1d 12 52
+70: a5 41 47 b2 61 ba f3 8b fc 16 ef d9 b7 af 18 49
+80: 44 3f 31 8d da 2d 2e 4c ff 64 ea 60 37 53 58 77
+90: 08 25 11 24 4a f1 6e a6 af fd 42 ec 6b 15 72 d4
+a0: 77 c4 cc 72 45 de a3 92 44 2d c9 fd 9c 88 65 ca
+b0: 01 b8 23 48 03 00 00 00 09 c0 08 02 93 65 19 00
+c0: 07 00 02 00 ff ff 02 40 00 00 00 00 00 00 00 00
+d0: 00 00 00 00 00 00 00 00 df 93 7f df fb 4c bc 58
+e0: c6 8e 92 80 1f 2f 9e cd 4a 1c 34 4a d8 1e 36 61
+f0: 8e b7 0d 14 fa e8 e6 67 20 e5 a5 3d 89 23 d2 af
+
+00:08.0 0780: 8086:1195 (rev 02)
+	Control: I/O- Mem+ BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Interrupt: pin A routed to IRQ 7
+	Region 0: Memory at ff18b000 (32-bit, non-prefetchable) [size=4K]
+	Capabilities: [b0] Power Management version 3
+		Flags: PMEClk- DSI+ D1- D2- AuxCurrent=0mA PME(D0+,D1-,D2-,D3hot+,D3cold-)
+		Status: D3 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+	Capabilities: [b8] Vendor Specific Information: Len=08 <?>
+	Capabilities: [c0] PCI-X non-bridge device
+		Command: DPERE- ERO+ RBC=512 OST=1
+		Status: Dev=ff:1f.7 64bit- 133MHz+ SCD- USC- DC=simple DMMRBC=512 DMOST=1 DMCRS=8 RSCEM- 266MHz+ 533MHz-
+	Capabilities: [100 v1] Vendor Specific Information: ID=0000 Rev=0 Len=024 <?>
+	Kernel driver in use: i2c-designware-pci
+00: 86 80 95 11 02 00 10 00 02 00 80 07 00 00 80 00
+10: 00 b0 18 ff 00 00 00 00 00 00 00 00 00 00 00 00
+20: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+30: 00 00 00 00 b0 00 00 00 00 00 00 00 07 01 00 00
+40: 5c 9e 3a ae f1 b7 ec ff e8 3a 31 a5 72 12 fa b5
+50: 94 ec df df cf af 35 a1 ef f3 f2 8d 39 bc df 23
+60: a5 c0 c5 72 20 57 ff 7b 07 94 b6 78 9d df 45 b1
+70: 6e 30 20 82 52 6a e2 7f 90 1f 85 44 84 71 75 7f
+80: d7 60 3b 06 24 43 55 6c 8d c2 f3 f4 51 98 1f ba
+90: 38 a4 cf 90 85 a1 00 f9 52 63 69 93 d4 af ef 0f
+a0: 66 ca 02 cc 73 bf a2 85 3b 2c 14 3c c0 56 31 6f
+b0: 01 b8 23 48 03 00 00 00 09 c0 08 02 94 25 00 00
+c0: 07 00 02 00 ff ff 02 40 00 00 00 00 00 00 00 00
+d0: 00 00 00 00 00 00 00 00 68 ac 1e c2 8c c2 ef ae
+e0: 3e ac 6c 9e c5 7f 2a ef 7a e8 6c cd 30 7e fa a3
+f0: d4 2c 37 c6 f9 1b 7f 61 cd 2f 51 9c 5a 26 fe 76
+
+00:08.1 0780: 8086:1195 (rev 02)
+	Control: I/O- Mem+ BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Interrupt: pin B routed to IRQ 10
+	Region 0: Memory at ff18c000 (32-bit, non-prefetchable) [size=4K]
+	Capabilities: [b0] Power Management version 3
+		Flags: PMEClk- DSI+ D1- D2- AuxCurrent=0mA PME(D0+,D1-,D2-,D3hot+,D3cold-)
+		Status: D3 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+	Capabilities: [b8] Vendor Specific Information: Len=08 <?>
+	Capabilities: [c0] PCI-X non-bridge device
+		Command: DPERE- ERO+ RBC=512 OST=1
+		Status: Dev=ff:1f.7 64bit- 133MHz+ SCD- USC- DC=simple DMMRBC=512 DMOST=1 DMCRS=8 RSCEM- 266MHz+ 533MHz-
+	Capabilities: [100 v1] Vendor Specific Information: ID=0000 Rev=0 Len=024 <?>
+	Kernel driver in use: i2c-designware-pci
+00: 86 80 95 11 02 00 10 00 02 00 80 07 00 00 80 00
+10: 00 c0 18 ff 00 00 00 00 00 00 00 00 00 00 00 00
+20: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+30: 00 00 00 00 b0 00 00 00 00 00 00 00 0a 02 00 00
+40: 5e 2f 1a bf db c6 ae cf a0 bb 2b 55 72 13 ea b6
+50: 94 e9 d7 bf ad ba 13 53 ef e3 e6 18 33 8d da 26
+60: 99 09 c1 53 a0 d3 52 73 ae a4 dc 41 8c 6c 99 a1
+70: 7a 39 f0 62 c2 62 ae 43 04 f7 6d 85 4c 61 24 ff
+80: f3 27 d7 46 8c 61 53 5b 85 a2 f7 c0 6d cb d6 d1
+90: b9 89 83 10 e3 88 00 59 b2 09 2d b7 d4 a2 0b 8b
+a0: 7e e0 12 7e 73 2d 22 2d 13 0f 04 2e c1 36 20 ff
+b0: 01 b8 23 48 03 00 00 00 09 c0 08 02 95 25 00 00
+c0: 07 00 02 00 ff ff 02 40 00 00 00 00 00 00 00 00
+d0: 00 00 00 00 00 00 00 00 32 b2 8d 53 04 4e 09 bf
+e0: 3f ac 6a af 57 3a 29 eb fb da 66 ed 36 a8 f8 bb
+f0: d4 68 73 86 f9 1b bf a3 c4 6e 51 9a 5b 0e 5f 07
+
+00:08.2 0780: 8086:1195 (rev 02)
+	Control: I/O- Mem+ BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Interrupt: pin C routed to IRQ 12
+	Region 0: Memory at ff18d000 (32-bit, non-prefetchable) [size=4K]
+	Capabilities: [b0] Power Management version 3
+		Flags: PMEClk- DSI+ D1- D2- AuxCurrent=0mA PME(D0+,D1-,D2-,D3hot+,D3cold-)
+		Status: D3 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+	Capabilities: [b8] Vendor Specific Information: Len=08 <?>
+	Capabilities: [c0] PCI-X non-bridge device
+		Command: DPERE- ERO+ RBC=512 OST=1
+		Status: Dev=ff:1f.7 64bit- 133MHz+ SCD- USC- DC=simple DMMRBC=512 DMOST=1 DMCRS=8 RSCEM- 266MHz+ 533MHz-
+	Capabilities: [100 v1] Vendor Specific Information: ID=0000 Rev=0 Len=024 <?>
+	Kernel driver in use: i2c-designware-pci
+00: 86 80 95 11 02 00 10 00 02 00 80 07 00 00 80 00
+10: 00 d0 18 ff 00 00 00 00 00 00 00 00 00 00 00 00
+20: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+30: 00 00 00 00 b0 00 00 00 00 00 00 00 0c 03 00 00
+40: 1f 3b b7 9f 37 6c 38 8c ea 59 df 57 93 c8 2a 6a
+50: 8d 0c 79 15 f7 29 c1 ea 1b 0c 78 94 99 aa 0a 88
+60: 30 e7 83 20 98 d9 cf 27 f2 42 e8 78 bc 0e 61 75
+70: a6 b4 1b f8 7b 07 04 9c 31 f3 41 6a f0 5e 2d e1
+80: 19 9c 50 5c 0c ed 2b be da 3a ba 8e 1a 64 cc 2e
+90: c0 78 9e 2e 09 64 d7 44 02 f9 06 ca 41 52 e1 b6
+a0: bc 77 66 bb 7d 32 17 46 2f c7 89 f0 1c 56 bb b1
+b0: 01 b8 23 48 03 00 00 00 09 c0 08 02 96 25 00 00
+c0: 07 00 02 00 ff ff 02 40 00 00 00 00 00 00 00 00
+d0: 00 00 00 00 00 00 00 00 90 7f 74 ad bd f5 90 1d
+e0: b3 db a6 cd 3a 84 74 3d 13 3b 56 48 0b 44 44 7c
+f0: e5 db 58 7f 88 cc 63 b8 3c 81 67 d4 93 2a 20 db
+
+00:08.3 0780: 8086:1195 (rev 02)
+	Control: I/O- Mem+ BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Interrupt: pin D routed to IRQ 13
+	Region 0: Memory at ff18e000 (32-bit, non-prefetchable) [size=4K]
+	Capabilities: [b0] Power Management version 3
+		Flags: PMEClk- DSI+ D1- D2- AuxCurrent=0mA PME(D0+,D1-,D2-,D3hot+,D3cold-)
+		Status: D3 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+	Capabilities: [b8] Vendor Specific Information: Len=08 <?>
+	Capabilities: [c0] PCI-X non-bridge device
+		Command: DPERE- ERO+ RBC=512 OST=1
+		Status: Dev=ff:1f.7 64bit- 133MHz+ SCD- USC- DC=simple DMMRBC=512 DMOST=1 DMCRS=8 RSCEM- 266MHz+ 533MHz-
+	Capabilities: [100 v1] Vendor Specific Information: ID=0000 Rev=0 Len=024 <?>
+	Kernel driver in use: i2c-designware-pci
+00: 86 80 95 11 02 00 10 00 02 00 80 07 00 00 80 00
+10: 00 e0 18 ff 00 00 00 00 00 00 00 00 00 00 00 00
+20: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+30: 00 00 00 00 b0 00 00 00 00 00 00 00 0d 04 00 00
+40: 13 1a 90 bf b3 0c 58 48 e8 0b d7 53 a7 a8 4b 2a
+50: 24 0a d9 1d 5c 69 e3 aa b3 0c f6 94 d1 e9 8a 8a
+60: a9 f1 8d e8 18 f6 da 96 f1 3c f4 e0 25 17 50 7d
+70: 87 7d cb d0 47 87 51 1d 61 3b d9 eb 58 46 3a 55
+80: 0e 9b 52 5c cb 43 a2 78 de d8 fa ab 1d 66 de 40
+90: 52 1e 98 0e 39 6c d3 6c 20 39 16 e8 27 94 c3 50
+a0: 38 6b 27 83 79 21 d5 46 ad c3 8d f1 89 5a bb b3
+b0: 01 b8 23 48 03 00 00 00 09 c0 08 02 97 25 00 00
+c0: 07 00 02 00 ff ff 02 40 00 00 00 00 00 00 00 00
+d0: 00 00 00 00 00 00 00 00 82 3e b4 ec a1 e5 17 34
+e0: 31 1b 46 cf 77 a1 3c 1c db 9f 1e 0b 2b 04 a2 5c
+f0: d5 b7 50 27 8c ce 29 b8 70 c1 65 82 19 0a 2c d3
+
+00:09.0 0780: 8086:1196 (rev 02)
+	Control: I/O- Mem+ BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Interrupt: pin A routed to IRQ 14
+	Region 0: Memory at ff18f000 (32-bit, non-prefetchable) [size=4K]
+	Capabilities: [b0] Power Management version 3
+		Flags: PMEClk- DSI+ D1- D2- AuxCurrent=0mA PME(D0+,D1-,D2-,D3hot+,D3cold-)
+		Status: D3 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+	Capabilities: [b8] Vendor Specific Information: Len=08 <?>
+	Capabilities: [c0] PCI-X non-bridge device
+		Command: DPERE- ERO+ RBC=512 OST=1
+		Status: Dev=ff:1f.7 64bit- 133MHz+ SCD- USC- DC=simple DMMRBC=512 DMOST=1 DMCRS=8 RSCEM- 266MHz+ 533MHz-
+	Capabilities: [100 v1] Vendor Specific Information: ID=0000 Rev=0 Len=024 <?>
+	Kernel driver in use: i2c-designware-pci
+00: 86 80 96 11 02 00 10 00 02 00 80 07 00 00 80 00
+10: 00 f0 18 ff 00 00 00 00 00 00 00 00 00 00 00 00
+20: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+30: 00 00 00 00 b0 00 00 00 00 00 00 00 0e 01 00 00
+40: e0 4b 4d 75 b0 da bb 90 8f 4b ca a5 a4 b1 10 02
+50: d9 f2 ec fa 35 1e db d1 cd df 7a df e8 0c 9c 78
+60: 07 a5 92 08 ca 33 56 47 d1 c8 09 1b 58 cd ef f0
+70: 83 33 98 05 8b 69 21 56 22 6d 09 fc 10 fb d3 2a
+80: 04 93 d7 78 a9 da d5 b7 e7 79 68 8f d4 66 85 68
+90: d0 8d 2d f5 66 89 69 58 43 20 aa cb b0 24 db 5f
+a0: 6b 2f 3c 95 c7 29 39 6f 8d d5 d3 c0 ab 4a 46 fa
+b0: 01 b8 23 48 03 00 00 00 09 c0 08 02 98 25 00 00
+c0: 07 00 02 00 ff ff 02 40 00 00 00 00 00 00 00 00
+d0: 00 00 00 00 00 00 00 00 03 71 16 d6 48 50 f7 66
+e0: f0 6b 7d 05 fd 74 bd a6 4d fe c3 dd a3 2d 10 50
+f0: a7 81 45 b0 61 ba 93 83 fc 16 e3 99 97 cd 18 69
+
+00:09.1 0780: 8086:1196 (rev 02)
+	Control: I/O- Mem+ BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Interrupt: pin B routed to IRQ 15
+	Region 0: Memory at ff190000 (32-bit, non-prefetchable) [size=4K]
+	Capabilities: [b0] Power Management version 3
+		Flags: PMEClk- DSI+ D1- D2- AuxCurrent=0mA PME(D0+,D1-,D2-,D3hot+,D3cold-)
+		Status: D3 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+	Capabilities: [b8] Vendor Specific Information: Len=08 <?>
+	Capabilities: [c0] PCI-X non-bridge device
+		Command: DPERE- ERO+ RBC=512 OST=1
+		Status: Dev=ff:1f.7 64bit- 133MHz+ SCD- USC- DC=simple DMMRBC=512 DMOST=1 DMCRS=8 RSCEM- 266MHz+ 533MHz-
+	Capabilities: [100 v1] Vendor Specific Information: ID=0000 Rev=0 Len=024 <?>
+	Kernel driver in use: i2c-designware-pci
+00: 86 80 96 11 02 00 10 00 02 00 80 07 00 00 80 00
+10: 00 00 19 ff 00 00 00 00 00 00 00 00 00 00 00 00
+20: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+30: 00 00 00 00 b0 00 00 00 00 00 00 00 0f 02 00 00
+40: d6 cb 6d 5f be dc b9 d3 9f 6e ca a5 ab b1 10 2c
+50: f5 f0 ec ba 75 5e dd d1 dd 9b 7a fd ef 04 9c 5a
+60: 47 d5 0a 13 9b 36 47 9d 50 91 6d 90 55 1e cf 64
+70: 33 24 a8 16 ca e0 26 26 a0 70 1d a1 10 7b cf f6
+80: 84 d3 9f 7a 00 be e5 f3 53 ef 0c 9b d0 e0 a9 c8
+90: d4 13 6f 31 f2 8f 98 1f a5 6e 62 03 bd 14 99 6b
+a0: 7a 0f 29 80 c7 29 20 4e 9d 44 53 f0 2b 42 45 f3
+b0: 01 b8 23 48 03 00 00 00 09 c0 08 02 9a 25 00 00
+c0: 07 00 02 00 ff ff 02 40 00 00 00 00 00 00 00 00
+d0: 00 00 00 00 00 00 00 00 83 ed 1c ae c9 53 ef 61
+e0: d4 2b 7d 23 fe 94 fd e6 ac de c1 f9 a3 1f b0 50
+f0: 85 01 7b b6 75 ba 72 83 fc 56 ef 99 96 ab 9c 0a
+
+00:09.2 0780: 8086:1196 (rev 02)
+	Control: I/O- Mem+ BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Interrupt: pin C routed to IRQ 16
+	Region 0: Memory at ff191000 (32-bit, non-prefetchable) [size=4K]
+	Capabilities: [b0] Power Management version 3
+		Flags: PMEClk- DSI+ D1- D2- AuxCurrent=0mA PME(D0+,D1-,D2-,D3hot+,D3cold-)
+		Status: D3 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+	Capabilities: [b8] Vendor Specific Information: Len=08 <?>
+	Capabilities: [c0] PCI-X non-bridge device
+		Command: DPERE- ERO+ RBC=512 OST=1
+		Status: Dev=ff:1f.7 64bit- 133MHz+ SCD- USC- DC=simple DMMRBC=512 DMOST=1 DMCRS=8 RSCEM- 266MHz+ 533MHz-
+	Capabilities: [100 v1] Vendor Specific Information: ID=0000 Rev=0 Len=024 <?>
+	Kernel driver in use: i2c-designware-pci
+00: 86 80 96 11 02 00 10 00 02 00 80 07 00 00 80 00
+10: 00 10 19 ff 00 00 00 00 00 00 00 00 00 00 00 00
+20: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+30: 00 00 00 00 b0 00 00 00 00 00 00 00 10 03 00 00
+40: 74 ef e9 41 55 5d a9 75 7b 18 d8 74 5e 69 4c d8
+50: 62 24 a5 10 86 ef 6b 0b 4f 47 e2 b3 b3 39 2a c3
+60: 9f 31 83 bb e2 e6 d6 b9 25 a3 57 fb e9 f6 83 86
+70: ff 37 7a f7 df 8d bc 44 80 78 dc c6 ad dd c1 75
+80: 1e 2b 2b 52 39 54 e4 02 03 a1 64 f5 57 7a ca 31
+90: 5a 5c b8 c9 9d 20 8c 3d 37 d8 8f be 73 3b d5 58
+a0: a8 93 e6 d9 90 8f 1b 89 9f 3d 5a 1c 3f a5 d5 bc
+b0: 01 b8 23 48 03 00 00 00 09 c0 08 02 9b 25 00 00
+c0: 07 00 02 00 ff ff 02 40 00 00 00 00 00 00 00 00
+d0: 00 00 00 00 00 00 00 00 a3 a5 8c 98 75 2e 71 ac
+e0: 13 68 39 25 f4 f9 2f 42 48 bd d1 4c 5f c4 ce be
+f0: f8 b5 2c 72 54 4f e8 fd 4c eb 93 57 9b 98 87 a2
+
+00:0a.0 0780: 8086:1197 (rev 02)
+	Control: I/O- Mem+ BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Interrupt: pin A routed to IRQ 39
+	Region 0: Memory at ff3f8000 (32-bit, non-prefetchable) [size=4K]
+	Capabilities: [b0] Power Management version 3
+		Flags: PMEClk- DSI+ D1- D2- AuxCurrent=0mA PME(D0+,D1-,D2-,D3hot+,D3cold-)
+		Status: D0 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+	Capabilities: [b8] Vendor Specific Information: Len=08 <?>
+	Capabilities: [c0] PCI-X non-bridge device
+		Command: DPERE- ERO+ RBC=512 OST=1
+		Status: Dev=ff:1f.7 64bit- 133MHz+ SCD- USC- DC=simple DMMRBC=512 DMOST=1 DMCRS=8 RSCEM- 266MHz+ 533MHz-
+	Capabilities: [100 v1] Vendor Specific Information: ID=0000 Rev=0 Len=024 <?>
+00: 86 80 97 11 02 00 10 00 02 00 80 07 00 00 00 00
+10: 00 80 3f ff 00 00 00 00 00 00 00 00 00 00 00 00
+20: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+30: 00 00 00 00 b0 00 00 00 00 00 00 00 27 01 00 00
+40: cf 56 61 dc c4 88 3f 96 eb 0a a3 23 63 23 e6 1a
+50: 38 92 e8 2f 36 88 90 2a 8f bf 43 e4 ac 95 15 28
+60: 51 10 ef da 01 6e c1 69 90 be dd 4d ac 05 15 fc
+70: 42 fd 36 48 59 57 6f fd 2b 85 a0 32 12 78 ea 23
+80: 1f cd 10 5c 0a c9 66 b8 83 89 04 57 08 4c e7 3a
+90: 26 32 46 2b f5 f6 b3 25 7e 6a aa 26 97 30 0a ce
+a0: b2 42 e6 a3 f0 37 fd 2d 7d 74 0a eb 97 f1 18 e7
+b0: 01 b8 23 48 00 00 00 00 09 c0 08 02 85 25 00 00
+c0: 07 00 02 00 ff ff 02 40 00 00 00 00 00 00 00 00
+d0: 00 00 00 00 00 00 00 00 4a ec b1 74 1a d9 4e 32
+e0: eb 4e 79 6c e2 01 27 c8 bd c9 a4 e2 5b 0e 68 4c
+f0: a1 d3 59 ea c3 8c 22 f0 37 a9 ce 0f fc a6 b5 4e
+
+00:0b.0 1080: 8086:1198 (rev 02)
+	Control: I/O- Mem+ BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Interrupt: pin A routed to IRQ 33
+	Region 0: Memory at f9038000 (32-bit, non-prefetchable) [size=32K]
+	Capabilities: [b0] Power Management version 3
+		Flags: PMEClk- DSI+ D1- D2- AuxCurrent=0mA PME(D0+,D1-,D2-,D3hot+,D3cold-)
+		Status: D3 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+	Capabilities: [b8] Vendor Specific Information: Len=08 <?>
+	Capabilities: [c0] PCI-X non-bridge device
+		Command: DPERE- ERO+ RBC=512 OST=1
+		Status: Dev=ff:1f.7 64bit- 133MHz+ SCD- USC- DC=simple DMMRBC=512 DMOST=1 DMCRS=8 RSCEM- 266MHz+ 533MHz-
+	Capabilities: [100 v1] Vendor Specific Information: ID=0000 Rev=0 Len=024 <?>
+	Kernel driver in use: sep54
+00: 86 80 98 11 02 00 10 00 02 00 80 10 00 00 00 00
+10: 00 80 03 f9 00 00 00 00 00 00 00 00 00 00 00 00
+20: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+30: 00 00 00 00 b0 00 00 00 00 00 00 00 21 01 00 00
+40: ed b7 03 9d 50 6e 12 b0 29 4c 82 a1 56 33 04 db
+50: 90 c4 7d ac 36 13 04 3f a5 c9 1e d9 eb 6e fa cc
+60: 93 ee d8 e0 2a 1f 54 57 c3 b9 77 4e 7b c4 ff 38
+70: 27 b3 02 4f c1 c6 a3 38 5b 0a b8 97 de e9 8d 2a
+80: 96 69 1a 26 4f 70 e4 76 bd 72 4b 6b a7 7e 10 65
+90: ee 78 2a ae 13 b4 ca 04 e5 4b 63 b7 f3 b0 9e 83
+a0: 45 f6 4d 80 c3 2b 18 71 28 4f 44 90 0e 67 6f da
+b0: 01 b8 23 48 03 00 00 00 09 c0 08 02 86 27 00 00
+c0: 07 00 02 00 ff ff 02 40 00 00 00 00 00 00 00 00
+d0: 00 00 00 00 00 00 00 00 78 c7 29 11 d6 0b 28 7b
+e0: c8 b8 67 4b c0 44 37 6d d3 f7 09 6a 96 86 1a 9d
+f0: 2c d9 58 78 4a 9e 8e 00 df f2 4d 27 19 a4 16 a6
+
+00:0c.0 0880: 8086:1199 (rev 02)
+	Control: I/O- Mem+ BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Interrupt: pin A routed to IRQ 5
+	Region 0: Memory at ff008000 (32-bit, non-prefetchable) [size=4K]
+	Region 1: Memory at 000cd410 (32-bit, non-prefetchable) [size=8]
+	Capabilities: [b0] Power Management version 3
+		Flags: PMEClk- DSI+ D1- D2- AuxCurrent=0mA PME(D0+,D1-,D2-,D3hot+,D3cold-)
+		Status: D3 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+	Capabilities: [b8] Vendor Specific Information: Len=08 <?>
+	Capabilities: [c0] PCI-X non-bridge device
+		Command: DPERE- ERO+ RBC=512 OST=1
+		Status: Dev=ff:1f.7 64bit- 133MHz+ SCD- USC- DC=simple DMMRBC=512 DMOST=1 DMCRS=8 RSCEM- 266MHz+ 533MHz-
+	Capabilities: [100 v1] Vendor Specific Information: ID=0000 Rev=0 Len=024 <?>
+	Kernel driver in use: langwell_gpio
+00: 86 80 99 11 02 00 10 00 02 00 80 08 00 00 00 00
+10: 00 80 00 ff 10 d4 0c 00 00 00 00 00 00 00 00 00
+20: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+30: 00 00 00 00 b0 00 00 00 00 00 00 00 05 01 00 00
+40: 9f 1b ff 9f 37 6c bc 08 a8 5b 9f 57 8b c8 aa 2a
+50: 05 08 71 15 da 29 83 ea 5b 0c f8 94 1f ab 4c 8a
+60: 30 e7 83 20 98 d9 cf 27 f6 42 e8 78 bc 0e 41 75
+70: 26 b4 1b f8 7b 07 04 94 31 e3 40 6a f0 5e 2d e1
+80: 19 9e 50 5c 0c cd 2b be da 3a ba 86 1a 64 c8 2e
+90: c0 78 9e 6e 09 64 f7 44 02 f9 06 ca 41 52 e1 b6
+a0: f4 73 e6 b3 f5 32 95 47 2d c7 09 f1 08 df ab b1
+b0: 01 b8 23 48 03 00 00 00 09 c0 08 02 00 41 00 00
+c0: 07 00 02 00 ff ff 02 40 00 00 00 00 00 00 00 00
+d0: 00 00 00 00 00 00 00 00 92 3f 74 ad bd f5 90 1d
+e0: b3 bb e6 cd 37 84 b0 1c 1b bb 5e 4e 0b 44 c4 7c
+f0: 51 9b 59 5f 88 cc 61 b8 3c 81 67 d2 d3 2a 68 db
+
+00:0d.0 0401: 8086:1495 (rev 02)
+	Control: I/O- Mem+ BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Interrupt: pin A routed to IRQ 24
+	Region 0: Memory at 05e00000 (32-bit, non-prefetchable) [size=2M]
+	Region 1: Memory at ff340000 (32-bit, non-prefetchable) [size=16K]
+	Region 2: Memory at ff344000 (32-bit, non-prefetchable) [size=4K]
+	Region 3: Memory at ff2c0000 (32-bit, non-prefetchable) [size=80K]
+	Region 4: Memory at ff300000 (32-bit, non-prefetchable) [size=160K]
+	Capabilities: [b0] Power Management version 3
+		Flags: PMEClk- DSI+ D1- D2- AuxCurrent=0mA PME(D0+,D1-,D2-,D3hot+,D3cold-)
+		Status: D3 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+	Capabilities: [b8] Vendor Specific Information: Len=08 <?>
+	Capabilities: [c0] PCI-X non-bridge device
+		Command: DPERE- ERO+ RBC=512 OST=1
+		Status: Dev=ff:1f.7 64bit- 133MHz+ SCD- USC- DC=simple DMMRBC=512 DMOST=1 DMCRS=8 RSCEM- 266MHz+ 533MHz-
+	Capabilities: [100 v1] Vendor Specific Information: ID=0000 Rev=0 Len=024 <?>
+	Kernel driver in use: intel_sst_driver
+00: 86 80 95 14 02 00 10 00 02 00 01 04 00 00 00 00
+10: 00 00 e0 05 00 00 34 ff 00 40 34 ff 00 00 2c ff
+20: 00 00 30 ff 00 00 00 00 00 00 00 00 00 00 00 00
+30: 00 00 00 00 b0 00 00 00 00 00 00 00 18 01 00 00
+40: 75 ef e9 65 d4 51 a9 77 7b 18 98 34 1e 69 4c c8
+50: 60 24 85 10 86 eb 6b 0b 4f 47 62 b1 b3 39 2a c3
+60: 8f 31 93 ba e2 e6 d6 b9 25 31 57 fb e9 f2 83 86
+70: ff 37 7a f7 df 85 bc 44 80 38 dc c6 ad 5d e1 75
+80: 1e 2b 2b 52 39 54 e4 02 03 a1 64 f5 d7 7a ca 11
+90: 5a 5c f8 c9 9d 20 8c 3d 37 d8 8f be 71 3b d5 58
+a0: e0 97 e4 d9 90 8f 1b 99 9f 3c da 0c 3f e5 d5 ac
+b0: 01 b8 23 48 03 00 00 00 09 c0 08 02 8a 65 00 00
+c0: 07 00 02 00 ff ff 02 40 00 00 00 00 00 00 00 00
+d0: 00 00 00 00 00 00 00 00 a3 a5 0c 98 75 2e 71 ac
+e0: 13 69 3d 25 fc f9 2d 02 48 bc b1 4c 5a c5 ce bc
+f0: f8 95 2c 52 54 4f 69 fd 4c ca 93 77 9b 98 86 b2
+
+00:0e.0 0880: 8086:1496 (rev 02)
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 64
+	Interrupt: pin A routed to IRQ 25
+	Region 0: Memory at ff298000 (32-bit, non-prefetchable) [size=16K]
+	Region 1: Memory at ff2a2000 (32-bit, non-prefetchable) [size=4K]
+	Capabilities: [b0] Power Management version 3
+		Flags: PMEClk- DSI+ D1- D2- AuxCurrent=0mA PME(D0+,D1-,D2-,D3hot+,D3cold-)
+		Status: D3 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+	Capabilities: [b8] Vendor Specific Information: Len=08 <?>
+	Capabilities: [c0] PCI-X non-bridge device
+		Command: DPERE- ERO+ RBC=512 OST=1
+		Status: Dev=ff:1f.7 64bit- 133MHz+ SCD- USC- DC=simple DMMRBC=512 DMOST=1 DMCRS=8 RSCEM- 266MHz+ 533MHz-
+	Capabilities: [100 v1] Vendor Specific Information: ID=0000 Rev=0 Len=024 <?>
+	Kernel driver in use: intel_mid_dma
+00: 86 80 96 14 06 00 10 00 02 00 80 08 00 40 00 00
+10: 00 80 29 ff 00 20 2a ff 00 00 00 00 00 00 00 00
+20: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+30: 00 00 00 00 b0 00 00 00 00 00 00 00 19 01 00 00
+40: 43 db 08 eb ca 02 bf ff 97 1d ca 91 22 66 4a b2
+50: f1 f6 a3 75 13 ed 03 90 fc e6 26 2b b0 b2 0b 9f
+60: b4 34 cf 48 25 e7 55 a9 74 de af fc 17 9d 49 10
+70: 93 61 58 a6 6c f2 f5 07 d9 9d 38 5c 7e 09 7c fc
+80: b1 64 d9 00 6c 63 d5 6f 90 71 0d 2a 0c f7 e5 25
+90: 8c c7 13 75 cb 5d a6 f2 a8 90 81 d2 c2 0e ca 51
+a0: 4c da 54 fc 91 5e ec 90 cb 8e a4 db d5 c8 fa 58
+b0: 01 b8 23 48 03 00 00 00 09 c0 08 02 8a 65 00 00
+c0: 07 00 02 00 ff ff 02 40 00 00 00 00 00 00 00 00
+d0: 00 00 00 00 00 00 00 00 bc 14 e9 1a 36 ee f8 a9
+e0: 33 ea 34 b7 ca f1 32 34 1e c2 10 72 76 16 0c fa
+f0: 1a 9e 80 37 07 61 ed ba c7 e7 1b 7d c1 19 be 45
+
+00:10.0 0c03: 8086:119d (rev 02) (prog-if 20)
+	Control: I/O- Mem+ BusMaster- SpecCycle- MemWINV+ VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Interrupt: pin A routed to IRQ 36
+	Region 0: Memory at f9060000 (32-bit, non-prefetchable) [size=128K]
+	Region 1: Memory at ffffa000 (32-bit, non-prefetchable) [size=16K]
+	Capabilities: [b0] Power Management version 3
+		Flags: PMEClk- DSI+ D1- D2- AuxCurrent=0mA PME(D0+,D1-,D2-,D3hot+,D3cold-)
+		Status: D3 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+	Capabilities: [b8] Vendor Specific Information: Len=08 <?>
+	Capabilities: [c0] PCI-X non-bridge device
+		Command: DPERE- ERO+ RBC=512 OST=1
+		Status: Dev=ff:1f.7 64bit- 133MHz+ SCD- USC- DC=simple DMMRBC=512 DMOST=1 DMCRS=8 RSCEM- 266MHz+ 533MHz-
+	Capabilities: [100 v1] Vendor Specific Information: ID=0000 Rev=0 Len=024 <?>
+	Kernel driver in use: ehci-intel-hsic
+00: 86 80 9d 11 12 00 10 00 02 20 03 0c 10 40 00 00
+10: 00 00 06 f9 00 a0 ff ff 00 00 00 00 00 00 00 00
+20: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+30: 00 00 00 00 b0 00 00 00 00 00 00 00 24 01 00 00
+40: 9b 64 cc b0 36 9b 92 83 d4 0d 7f 14 1d 6a ed 3e
+50: 71 c8 bc 67 95 70 88 6d 7a 4d 29 53 d2 4b 28 7b
+60: 49 a2 b5 57 f1 82 b7 61 0b 56 01 e9 02 07 0b 94
+70: d8 55 d8 69 62 8f 72 08 8e 79 5e 07 b1 35 df 04
+80: d2 34 dc d3 1c c8 99 99 e1 a9 0d c4 88 83 23 5d
+90: 92 bc 8e 53 ec 8a 95 3e e5 d4 85 3e a0 af 53 19
+a0: 29 68 03 2e 5f 76 e3 64 ef c2 f7 3b ba fe 9e 61
+b0: 01 b8 23 48 03 00 00 00 09 c0 08 02 88 65 00 00
+c0: 07 00 02 00 ff ff 02 40 00 00 00 00 00 00 00 00
+d0: 00 00 00 00 00 00 00 00 a4 f5 47 c0 ed be 73 4c
+e0: 9f e4 b0 ac 0a 53 14 55 c7 99 34 6e 7b c4 cf 3c
+f0: 47 a9 02 4f c1 e0 83 38 1b 0d b8 d7 bc ea 8c 22
+
+00:11.0 0c03: 8086:119e (rev 02) (prog-if 20)
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 64
+	Interrupt: pin A routed to IRQ 34
+	Region 0: Memory at f9100000 (32-bit, non-prefetchable) [size=128K]
+	Capabilities: [b0] Power Management version 3
+		Flags: PMEClk- DSI+ D1- D2- AuxCurrent=0mA PME(D0+,D1-,D2-,D3hot+,D3cold-)
+		Status: D0 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+	Capabilities: [b8] Vendor Specific Information: Len=08 <?>
+	Capabilities: [c0] PCI-X non-bridge device
+		Command: DPERE- ERO+ RBC=512 OST=1
+		Status: Dev=ff:1f.7 64bit- 133MHz+ SCD- USC- DC=simple DMMRBC=512 DMOST=1 DMCRS=8 RSCEM- 266MHz+ 533MHz-
+	Capabilities: [100 v1] Vendor Specific Information: ID=0000 Rev=0 Len=024 <?>
+	Kernel driver in use: dwc3_otg
+00: 86 80 9e 11 06 00 10 00 02 20 03 0c 00 40 00 00
+10: 00 00 10 f9 00 00 00 00 00 00 00 00 00 00 00 00
+20: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+30: 00 00 00 00 b0 00 00 00 00 00 00 00 22 01 00 00
+40: 15 e0 ff ea 0d c6 a5 39 c5 0e d6 15 82 bd 07 aa
+50: 16 66 b6 00 ad c7 45 ae 4a cc b1 74 19 db 0c 52
+60: 63 4b 74 bd 70 99 a6 d0 ee f1 33 6a ff 16 e1 1d
+70: 59 5a c9 6b f2 94 22 98 af 33 ce 47 64 b2 b1 4f
+80: c1 56 72 49 99 37 d7 65 8c 04 b3 59 4b aa 10 c1
+90: 78 f5 62 9a 3e e7 a8 99 73 d1 4c 8e 24 07 e1 0c
+a0: 30 9d 29 56 47 c5 65 b8 f9 98 2d 4e 44 60 ec 7e
+b0: 01 b8 23 48 00 00 00 00 09 c0 08 02 89 65 00 00
+c0: 07 00 02 00 ff ff 02 40 00 00 00 00 00 00 00 00
+d0: 00 00 00 00 00 00 00 00 94 b4 de dc 28 93 54 dc
+e0: 35 38 8d 1e 21 6f e1 79 92 78 dd 2d 9c 35 93 fc
+f0: 64 b5 74 c9 78 46 6e df 2e 01 60 3b 32 1a ca 62
+
+00:12.0 ff00: 8086:119f (rev 02)
+	Control: I/O- Mem+ BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Interrupt: pin A routed to IRQ 46
+	Region 0: Memory at f9009000 (32-bit, non-prefetchable) [size=4K]
+	Region 1: Memory at f90a0000 (32-bit, non-prefetchable) [size=64K]
+	Region 2: Memory at fa000000 (32-bit, non-prefetchable) [size=16M]
+	Capabilities: [b0] Power Management version 3
+		Flags: PMEClk- DSI+ D1- D2- AuxCurrent=0mA PME(D0+,D1-,D2-,D3hot+,D3cold-)
+		Status: D0 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME+
+	Capabilities: [b8] Vendor Specific Information: Len=08 <?>
+	Capabilities: [c0] PCI-X non-bridge device
+		Command: DPERE- ERO+ RBC=512 OST=1
+		Status: Dev=ff:1f.7 64bit- 133MHz+ SCD- USC- DC=simple DMMRBC=512 DMOST=1 DMCRS=8 RSCEM- 266MHz+ 533MHz-
+	Capabilities: [100 v1] Vendor Specific Information: ID=0000 Rev=0 Len=024 <?>
+	Kernel driver in use: pciPTI
+00: 86 80 9f 11 02 00 10 00 02 00 00 ff 00 00 00 00
+10: 00 90 00 f9 00 00 0a f9 00 00 00 fa 00 00 00 00
+20: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+30: 00 00 00 00 b0 00 00 00 00 00 00 00 2e 01 00 00
+40: ad 1c 80 d4 97 0d 4f 8d ce 28 24 12 45 28 9d f0
+50: 12 a6 e0 5c 9f 4c a6 6c 26 40 16 d6 b4 9d da f7
+60: d0 2f 7d 67 f8 30 bd a2 a8 da 43 7d e3 1d 12 52
+70: a5 41 47 b2 65 ba f3 8b dc 16 ef d9 b7 af 18 49
+80: 44 3f 31 8d da 2d 2e 4c ff 64 ea 60 37 53 58 77
+90: 08 25 11 64 4a f0 6e a6 af fd 42 ec 6f 15 72 d4
+a0: 57 c4 8c 72 45 de a3 92 44 2d c9 fd 9c 88 45 ca
+b0: 01 b8 23 48 00 80 00 00 09 c0 08 02 90 25 00 00
+c0: 07 00 02 00 ff ff 02 40 00 00 00 00 00 00 00 00
+d0: 00 00 00 00 00 00 00 00 df 93 7f 5f fb 4c bc 58
+e0: c6 8e 92 81 1f 2f 9e cd 4e 1c 34 4a d8 1e 36 61
+f0: 8e b7 89 14 fa e8 e6 67 28 e5 a5 7d 89 22 d2 af
+
+00:13.0 0b40: 8086:11a0 (rev 02)
+	Control: I/O- Mem+ BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Interrupt: pin A routed to IRQ 48
+	Region 0: Memory at ff009000 (32-bit, non-prefetchable) [size=4K]
+	Capabilities: [b0] Power Management version 3
+		Flags: PMEClk- DSI+ D1- D2- AuxCurrent=0mA PME(D0+,D1-,D2-,D3hot+,D3cold-)
+		Status: D0 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME+
+	Capabilities: [b8] Vendor Specific Information: Len=08 <?>
+	Capabilities: [c0] PCI-X non-bridge device
+		Command: DPERE- ERO+ RBC=512 OST=1
+		Status: Dev=ff:1f.7 64bit- 133MHz+ SCD- USC- DC=simple DMMRBC=512 DMOST=1 DMCRS=8 RSCEM- 266MHz+ 533MHz-
+	Capabilities: [100 v1] Vendor Specific Information: ID=0000 Rev=0 Len=024 <?>
+	Kernel driver in use: intel_scu_ipc
+00: 86 80 a0 11 02 00 10 00 02 00 40 0b 00 00 00 00
+10: 00 90 00 ff 00 00 00 00 00 00 00 00 00 00 00 00
+20: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+30: 00 00 00 00 b0 00 00 00 00 00 00 00 30 01 00 00
+40: 99 78 f5 2e 28 f3 57 37 d4 9f 87 b9 81 eb 3b 7e
+50: 3a 18 cd 43 5e d6 49 8d 30 36 10 5a 14 62 5d df
+60: 7e de 28 d5 d7 09 28 da fb dd 69 fe 76 99 b8 90
+70: 84 4f 73 b5 f9 79 3f 06 cc 79 33 bc 7b bd 3a 40
+80: 5d cb 3b ff df 90 a8 92 49 1f 3d 1d 50 6d 27 40
+90: cc 67 f5 a1 38 b3 1f 0f 3c cc 8b fc 05 9d 48 90
+a0: a6 76 86 32 28 47 73 5e f8 62 c0 e2 67 e2 e2 95
+b0: 01 b8 23 48 00 80 00 00 09 c0 08 02 00 01 00 00
+c0: 07 00 02 00 ff ff 02 40 00 00 00 00 00 00 00 00
+d0: 00 00 00 00 00 00 00 00 ef d0 a2 ba 73 92 92 11
+e0: 19 c9 c4 73 30 5a cb 6f a6 9f 8c 40 04 4f 97 89
+f0: c3 a1 b0 02 d7 d2 fa 3b 18 03 94 01 5c 6b a5 e2
+
+00:14.0 0b40: 8086:11a1 (rev 02)
+	Control: I/O- Mem+ BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Interrupt: pin A routed to IRQ 6
+	Region 0: Memory at ff00b000 (32-bit, non-prefetchable) [size=4K]
+	Capabilities: [b0] Power Management version 3
+		Flags: PMEClk- DSI+ D1- D2- AuxCurrent=0mA PME(D0+,D1-,D2-,D3hot+,D3cold-)
+		Status: D0 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME+
+	Capabilities: [b8] Vendor Specific Information: Len=08 <?>
+	Capabilities: [c0] PCI-X non-bridge device
+		Command: DPERE- ERO+ RBC=512 OST=1
+		Status: Dev=ff:1f.7 64bit- 133MHz+ SCD- USC- DC=simple DMMRBC=512 DMOST=1 DMCRS=8 RSCEM- 266MHz+ 533MHz-
+	Capabilities: [100 v1] Vendor Specific Information: ID=0000 Rev=0 Len=024 <?>
+	Kernel driver in use: intel_pmu_driver
+00: 86 80 a1 11 02 00 10 00 02 00 40 0b 00 00 00 00
+10: 00 b0 00 ff 00 00 00 00 00 00 00 00 00 00 00 00
+20: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+30: 00 00 00 00 b0 00 00 00 00 00 00 00 06 01 00 00
+40: 3a 20 88 a2 06 32 c0 c7 34 6b 0d a7 c0 b0 a1 96
+50: a2 fc c6 e9 a0 95 13 94 d8 5a 71 3f fa 7c ba e0
+60: d4 8e 78 5d f0 4c 2f b8 57 85 c2 c9 ab 4d e7 70
+70: c5 89 b3 52 57 23 64 4b 32 84 06 fc 17 03 d8 07
+80: 88 1f 61 4b 18 c7 0a 4c 66 34 a5 9c 6a 98 63 41
+90: 3f 27 cf 47 85 66 22 bf d5 6e e8 b7 b4 f1 0d a6
+a0: b7 c0 cf 70 25 da d1 b3 d5 aa f3 47 bf c0 9d be
+b0: 01 b8 23 48 00 80 00 00 09 c0 08 02 00 00 00 00
+c0: 07 00 02 00 ff ff 02 40 00 00 00 00 00 00 00 00
+d0: 00 00 00 00 00 00 00 00 19 2b 0e a7 c9 20 dd ce
+e0: 3a e0 98 f2 0e 9a c4 97 23 db 04 ff c0 1c a3 d0
+f0: f2 7f 6c a5 b4 11 19 e6 eb d6 e0 79 b2 df 1a b3
+
+00:15.0 0880: 8086:1497 (rev 02)
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 64
+	Interrupt: pin A routed to IRQ 32
+	Region 0: Memory at ff192000 (32-bit, non-prefetchable) [size=4K]
+	Capabilities: [b0] Power Management version 3
+		Flags: PMEClk- DSI+ D1- D2- AuxCurrent=0mA PME(D0+,D1-,D2-,D3hot+,D3cold-)
+		Status: D3 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+	Capabilities: [b8] Vendor Specific Information: Len=08 <?>
+	Capabilities: [c0] PCI-X non-bridge device
+		Command: DPERE- ERO+ RBC=512 OST=1
+		Status: Dev=ff:1f.7 64bit- 133MHz+ SCD- USC- DC=simple DMMRBC=512 DMOST=1 DMCRS=8 RSCEM- 266MHz+ 533MHz-
+	Capabilities: [100 v1] Vendor Specific Information: ID=0000 Rev=0 Len=024 <?>
+	Kernel driver in use: intel_mid_dma
+00: 86 80 97 14 06 00 10 00 02 00 80 08 00 40 00 00
+10: 00 20 19 ff 00 00 00 00 00 00 00 00 00 00 00 00
+20: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+30: 00 00 00 00 b0 00 00 00 00 00 00 00 20 01 00 00
+40: 94 94 df 5a 2d 4f 57 f9 67 6c a6 a4 13 31 4b 46
+50: c3 f0 f4 ea 38 16 1f 55 f8 30 e9 1a 36 ee f8 a9
+60: 6f 2b 0c af de a0 ba 16 98 83 d1 7b fd ce 57 a9
+70: 11 56 ba 05 4e 79 30 e9 af ef 87 e9 61 01 0f 12
+80: 5b cf bb f7 93 b8 e8 d2 9a ea ed 83 6b 43 f6 5d
+90: b0 0d 3e a4 12 22 7d 88 64 4b 20 b5 bf 3b 61 c2
+a0: a2 34 c4 08 21 7f 53 6d 63 41 25 2a 50 fe eb a1
+b0: 01 b8 23 48 03 00 00 00 09 c0 08 02 99 25 00 00
+c0: 07 00 02 00 ff ff 02 40 00 00 00 00 00 00 00 00
+d0: 00 00 00 00 00 00 00 00 a4 72 0e a2 88 a2 82 27
+e0: b4 36 cf 0a 25 e7 55 ad 74 dc 8f fc 15 9d 49 10
+f0: 83 65 5c 82 6c 90 f5 47 d3 9d 78 5c 7c 4d 78 f8
+
+00:17.0 0880: 8086:1498 (rev 02)
+	Control: I/O- Mem+ BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Region 0: Memory at ff013400 (32-bit, non-prefetchable) [size=1K]
+	Capabilities: [b0] Power Management version 3
+		Flags: PMEClk- DSI+ D1- D2- AuxCurrent=0mA PME(D0+,D1-,D2-,D3hot+,D3cold-)
+		Status: D3 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+	Capabilities: [b8] Vendor Specific Information: Len=08 <?>
+	Capabilities: [c0] PCI-X non-bridge device
+		Command: DPERE- ERO+ RBC=512 OST=1
+		Status: Dev=ff:1f.7 64bit- 133MHz+ SCD- USC- DC=simple DMMRBC=512 DMOST=1 DMCRS=8 RSCEM- 266MHz+ 533MHz-
+	Capabilities: [100 v1] Vendor Specific Information: ID=0000 Rev=0 Len=024 <?>
+	Kernel driver in use: intel_vibra_driver
+00: 86 80 98 14 02 00 10 00 02 00 80 08 00 00 00 00
+10: 00 34 01 ff 00 00 00 00 00 00 00 00 00 00 00 00
+20: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+30: 00 00 00 00 b0 00 00 00 00 00 00 00 00 00 00 00
+40: 08 14 25 ad 98 e2 57 9a e8 c6 e5 32 b8 b8 cb 93
+50: e7 3d fb f0 79 12 db 57 02 7e 95 3c a8 75 17 ad
+60: ff fb 6a cf f7 c4 f8 1c 5f bb 5e 0f 8f c4 a4 7c
+70: 91 9b 1d 5b cc 8c 85 98 fc 89 6b d2 57 0a e8 9b
+80: c7 b2 fa ab a9 3e 9e 45 5a af 3c 61 5c d3 a5 b7
+90: 2a 92 a0 ff 92 1c 0a d8 6a 27 e8 01 92 ab 0a c7
+a0: 32 e8 28 13 e6 93 26 98 89 5e 82 f4 ad 28 b1 8e
+b0: 01 b8 23 48 03 00 00 00 09 c0 08 02 a4 00 00 00
+c0: 07 00 02 00 ff ff 02 40 00 00 00 00 00 00 00 00
+d0: 00 00 00 00 00 00 00 00 5f 0c fa 94 1f 69 4c 0a
+e0: b1 94 81 f0 15 5b 73 b7 73 75 6c c0 2c 82 cc 85
+f0: b7 fd 5a bd ae 15 74 81 b1 7b 59 56 e0 52 a3 65
+
+00:18.0 0380: 8086:11a6 (rev 02)
+	Control: I/O- Mem+ BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Capabilities: [b0] Power Management version 3
+		Flags: PMEClk- DSI+ D1- D2- AuxCurrent=0mA PME(D0+,D1-,D2-,D3hot+,D3cold-)
+		Status: D0 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME+
+	Capabilities: [b8] Vendor Specific Information: Len=08 <?>
+	Capabilities: [c0] PCI-X non-bridge device
+		Command: DPERE- ERO+ RBC=512 OST=1
+		Status: Dev=ff:1f.7 64bit- 133MHz+ SCD- USC- DC=simple DMMRBC=512 DMOST=1 DMCRS=8 RSCEM- 266MHz+ 533MHz-
+	Capabilities: [100 v1] Vendor Specific Information: ID=0000 Rev=0 Len=024 <?>
+00: 86 80 a6 11 02 00 10 00 02 00 80 03 00 00 00 00
+10: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+20: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+30: 00 00 00 00 b0 00 00 00 00 00 00 00 00 00 00 00
+40: e0 4b 4d 77 b0 da bb 90 8f 5b ca a5 a4 b1 50 02
+50: d9 f6 ec fa 35 1c db d1 cd df 7a dd e8 0c 9c 78
+60: 07 25 82 08 ca 33 56 47 d1 c8 09 1b 58 cd ef f0
+70: 02 33 98 05 8b 69 21 56 22 6d 0d fc 10 fb c3 0a
+80: 84 93 d7 78 a9 da d1 b7 e7 79 68 8f d4 26 85 68
+90: d0 8d 2d b5 66 89 69 58 43 24 aa cb b0 24 db 5f
+a0: 7b 2f 3c 95 c7 29 39 6f 8d d5 53 c0 ab 4a 46 fa
+b0: 01 b8 23 48 00 80 00 00 09 c0 08 02 00 65 00 00
+c0: 07 00 02 00 ff ff 02 40 00 00 00 00 00 00 00 00
+d0: 00 00 00 00 00 00 00 00 03 79 16 d6 00 50 ff 66
+e0: f0 6b 7d 05 fd 74 bd a6 4d fe c3 dd a3 0d 10 50
+f0: a7 81 45 b0 61 ba 93 83 fe 16 e3 99 97 cd 18 69
+
+00:1a.0 ff00: 8086:1499 (rev 02)
+	Control: I/O- Mem+ BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Capabilities: [b0] Power Management version 3
+		Flags: PMEClk- DSI+ D1- D2- AuxCurrent=0mA PME(D0+,D1-,D2-,D3hot+,D3cold-)
+		Status: D0 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+	Capabilities: [b8] Vendor Specific Information: Len=08 <?>
+	Capabilities: [c0] PCI-X non-bridge device
+		Command: DPERE- ERO+ RBC=512 OST=1
+		Status: Dev=ff:1f.7 64bit- 133MHz+ SCD- USC- DC=simple DMMRBC=512 DMOST=1 DMCRS=8 RSCEM- 266MHz+ 533MHz-
+	Capabilities: [100 v1] Vendor Specific Information: ID=0000 Rev=0 Len=024 <?>
+00: 86 80 99 14 02 00 10 00 02 00 00 ff 00 00 00 00
+10: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+20: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+30: 00 00 00 00 b0 00 00 00 00 00 00 00 00 00 00 00
+40: ed b7 03 9d d0 6e 12 b0 29 44 82 e1 56 33 00 db
+50: 90 c4 7d ac 36 13 04 3f a5 c9 1f 5b eb 6e f2 cc
+60: 97 ee d8 e0 2a 1b 54 57 c3 b9 57 4e 7b c4 7f 38
+70: 27 b3 0a 4f c1 c6 a3 38 5b 0a b8 93 de e9 8f 2a
+80: 96 69 1a 26 4f 70 e4 76 bd 72 4b 6b a7 7e 10 65
+90: ee 78 2a 2e 13 b4 ca 04 e5 4b 63 b7 f3 b0 be 83
+a0: 65 f6 cd 90 c3 2b 18 71 28 4f 44 90 0e 65 6f da
+b0: 01 b8 23 48 00 00 00 00 09 c0 08 02 8f 65 00 00
+c0: 07 00 02 00 ff ff 02 40 00 00 00 00 00 00 00 00
+d0: 00 00 00 00 00 00 00 00 78 c7 29 19 d6 0f 28 7b
+e0: c9 b8 47 4b c0 44 37 6d 93 f7 01 6a 96 86 1a 9d
+f0: 2c d9 58 78 4a 9e 8e 00 df f0 4d 27 99 a4 16 a6
+

@@ -1,0 +1,4 @@
+cd /data/data/com.gnuroot.debian/debian
+export P=$(pwd)
+export ROOT=$P
+export LD_LIBRARY_PATH=$P:$P/i386-linux-gnu/

@@ -1,0 +1,76 @@
+            CPU0       CPU1       CPU2       CPU3       
+   0:     885660          0          0          0   IO-APIC-fasteoi   mmc0
+   6:        431          0          0          0   IO-APIC-fasteoi   intel_pmu_driver
+   7:      71054          0          0          0   IO-APIC-fasteoi   i2c-designware-1
+   8:       1110          0          0          0   IO-APIC-fasteoi   rtc0
+   9:          0          0          0          0   IO-APIC-fasteoi   faberr_int
+  10:      28250          0          0          0   IO-APIC-fasteoi   i2c-designware-2
+  12:          0          0          0          0   IO-APIC-fasteoi   i2c-designware-3
+  13:       4035          0          0          0   IO-APIC-fasteoi   i2c-designware-4
+  14:          0          0          0          0   IO-APIC-fasteoi   i2c-designware-5
+  15:    1745652          0          0          0   IO-APIC-fasteoi   i2c-designware-6
+  16:     191444          0          0          0   IO-APIC-fasteoi   i2c-designware-7
+  20:          0          0          0          0   IO-APIC-fasteoi   pxa2xx-spi.3
+  22:          2          0          0          0   IO-APIC-fasteoi   pxa2xx-spi.5
+  24:      15075          0          0          0   IO-APIC-fasteoi   intel_sst_driver
+  25:         28          0          0          0   IO-APIC-fasteoi   INTEL_MID_DMAC1
+  27:        889          0          0          0   IO-APIC-fasteoi   i2c_pmic_adap, bq24261_charger, pmic_ccsm
+  28:          0          0          0          0   IO-APIC-fasteoi   hsu dma, hsu_bt_port_p
+  29:          0          0          0          0   IO-APIC-fasteoi   hsu dma, hsu_gps_port_p
+  30:        104          0          0          0   IO-APIC-fasteoi   msic_power_btn
+  32:          0          0          0          0   IO-APIC-fasteoi   INTEL_MID_DMAC2
+  33:       4823          0          0          0   IO-APIC-fasteoi   sep54
+  36:      30335          0          0          0   IO-APIC-fasteoi   ehci_hcd:usb1
+  37:      35568          0          0          0   IO-APIC-fasteoi   mmc1
+  38:     265554          0          0          0   IO-APIC-fasteoi   mmc2
+  40:      25399          0          0          0   IO-APIC-fasteoi 
+  48:      15203          0          0          0   IO-APIC-fasteoi   intel_scu_ipc
+  50:       1610          0          0          0   IO-APIC-fasteoi   adc
+  51:          0          0          0          0   IO-APIC-fasteoi   bcove_bcu
+  52:          0          0          0          0   IO-APIC-fasteoi   scove_thrm
+  53:          0          0          0          0   IO-APIC-fasteoi   pxa2xx-spi.6
+  59:          0          0          0          0   IO-APIC-fasteoi   watchdog
+  60:        174         83          0          0  wm8994_edge  wm8994
+  86:          0          0          0          0   IO-APIC-fasteoi   hsu dma, hsu_debug_port_p
+ 103:     532078          0          0          0   PCI-MSI-edge      pvrsrvkm
+ 104:       1990          0          0          0   PCI-MSI-edge      isp_irq
+ 270:        243          0          0          0  LNW-GPIO-demux     WM8994 edge
+ 300:       2242          0          0          0  LNW-GPIO-demux     cm36686
+ 302:          0          0          0          0  LNW-GPIO-demux     lsm303d_irq1
+ 303:          0          0          0          0  LNW-GPIO-demux     lsm303d_irq2
+ 304:          0          0          0          0  LNW-GPIO-demux     l3gd20_gyr_irq2
+ 308:          0          0          0          0  LNW-GPIO-demux     bq27425_battery
+ 317:          6          0          0          0  LNW-GPIO-demux     volume_down
+ 318:          0          0          0          0  LNW-GPIO-demux     volume_up
+ 326:          0          0          0          0  LNW-GPIO-demux     hsic_remote_wakeup_request
+ 333:          0          0          0          0  LNW-GPIO-demux     sd_cd
+ 386:          0          0          0          0  LNW-GPIO-demux     hsu_gps_port
+ 418:          0          0          0          0  LNW-GPIO-demux     mdm_ctrl
+ 429:          1          0          0          0  LNW-GPIO-demux     hsic_disconnect_request
+ 430:          0          0          0          0  LNW-GPIO-demux     pn547
+ 434:          0          0          0          0  LNW-GPIO-demux     gps_hostwake
+ 436:          1          0          0          0  LNW-GPIO-demux     mdm_ctrl
+ 439:      31836         16          0          0  LNW-GPIO-demux     synaptics_dsx
+ 441:          0          0          0          0  LNW-GPIO-demux     bt_host_wake
+ 448:          0          0          0          0    wm8994  Thermal shutdown
+ 449:        148          3          0          0    wm8994  Mic detect
+ 453:         16         46          0          0    wm8994  FLL lock
+ 454:          0          0          0          0    wm8994  FLL lock
+ 460:          0          1          0          0    wm8994  FIFO error
+ 462:          8         21          0          0    wm8994  DC servo done
+ 463:          0          0          0          0    wm8994  Thermal warning
+ NMI:        865        666        349        305   Non-maskable interrupts
+ LOC:    1238526     831194     571878     218153   Local timer interrupts
+ SPU:          0          0          0          0   Spurious interrupts
+ PMI:        865        666        349        305   Performance monitoring interrupts
+ IWI:      27995      25378       6955       6830   IRQ work interrupts
+ RTR:          0          0          0          0   APIC ICR read retries
+ RES:    1432488    2312952     840781     620637   Rescheduling interrupts
+ CAL:     761505     883746     883883     935820   Function call interrupts
+ TLB:     123180     129448     110019     104172   TLB shootdowns
+ TRM:          0          0          0          0   Thermal event interrupts
+ THR:          0          0          0          0   Threshold APIC interrupts
+ MCE:          0          0          0          0   Machine check exceptions
+ MCP:        627        620        620        620   Machine check polls
+ ERR:          0
+ MIS:          0
